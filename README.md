@@ -5,20 +5,24 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
 [![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+Lumen REST API with PASSPORT authentication(https://github.com/dusterio/lumen-passport)  and Guzzle(https://docs.guzzlephp.org/en/stable/quickstart.html) 
+Databes is SQlLite
+migrations are exists
+run migrations
 
-## Official Documentation
+How to Use App:
+CLI commands:
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+App\Models\Post::factory()->count(15)->create()</br>
+App\Models\User::factory()->count(5)->create()
 
-## Contributing
+REST:
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+User login https://4pksg.ciroue.com/api/login</br>
+GET/ posts: https://4pksg.ciroue.com/api/posts</br>
+PUT/ posts: https://4pksg.ciroue.com/api/posts/10</br>
+POST/ Post: https://4pksg.ciroue.com/api/posts</br>
+DELETE/ Post: https://4pksg.ciroue.com/api/posts/10</br>
+Oauth login: https://4pksg.ciroue.com/v1/oauth/token</br>
+Register: https://4pksg.ciroue.com/api/register</br>
+Logout: https://4pksg.ciroue.com/api/logout</br>
