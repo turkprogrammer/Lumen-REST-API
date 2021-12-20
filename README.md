@@ -28,7 +28,7 @@ DELETE/ Post: https://4pksg.ciroue.com/api/posts/10</br>
 Oauth login: https://4pksg.ciroue.com/v1/oauth/token</br>
 Register: https://4pksg.ciroue.com/api/register</br>
 Logout: https://4pksg.ciroue.com/api/logout</br>
-
+config/service.php:</br>
 return [
     'passport' => [
         'login_endpoint' => env('PASSPORT_LOGIN_ENDPOINT'),
