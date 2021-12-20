@@ -28,3 +28,13 @@ DELETE/ Post: https://4pksg.ciroue.com/api/posts/10</br>
 Oauth login: https://4pksg.ciroue.com/v1/oauth/token</br>
 Register: https://4pksg.ciroue.com/api/register</br>
 Logout: https://4pksg.ciroue.com/api/logout</br>
+
+return [
+    'passport' => [
+        'login_endpoint' => env('PASSPORT_LOGIN_ENDPOINT'),
+        'client_id' => env('PASSPORT_CLIENT_ID'),
+        'client_secret' => env('PASSPORT_CLIENT_SECRET'),
+    ]
+];
+
+The Passport constants are placed in .env
