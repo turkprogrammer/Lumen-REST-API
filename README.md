@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
 
 Lumen REST API with PASSPORT authentication(https://github.com/dusterio/lumen-passport)  and Guzzle(https://docs.guzzlephp.org/en/stable/quickstart.html) </br>
-project hosted on https://phpsandbox.io/n/4pksg </br>
+project hosted on https://phpsandbox.io/n/4pksg Start</br>
 Databes is SQlLite</br>
 migrations are exists</br>
 run migrations</br>
@@ -18,7 +18,7 @@ CLI commands:
 App\Models\Post::factory()->count(15)->create()</br>
 App\Models\User::factory()->count(5)->create()
 
-REST:
+Use for REST Postman:
 
 User login https://4pksg.ciroue.com/api/login</br>
 GET/ posts: https://4pksg.ciroue.com/api/posts</br>
