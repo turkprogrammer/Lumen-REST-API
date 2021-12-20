@@ -8,8 +8,8 @@
 Lumen REST API with PASSPORT authentication(https://github.com/dusterio/lumen-passport)  and Guzzle(https://docs.guzzlephp.org/en/stable/quickstart.html) </br>
 project hosted on https://phpsandbox.io/n/4pksg Start</br>
 Databes is SQlLite</br>
-migrations are exists</br>
-run migrations</br>
+migrations already exists</br>
+run migrations (if forked or locally not in )</br>
 
 
 How to Use App:
