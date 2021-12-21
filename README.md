@@ -5,11 +5,12 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
 [![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
 
-Lumen REST API with PASSPORT authentication(https://github.com/dusterio/lumen-passport)  and Guzzle(https://docs.guzzlephp.org/en/stable/quickstart.html) </br>
+Lumen REST API with PASSPORT authentication(https://github.com/dusterio/lumen-passport)  and Guzzle(https://docs.guzzlephp.org/en/stable/quickstart.html) and Lumen Generator (https://github.com/flipboxstudio/lumen-generator)</br>
 project hosted on https://phpsandbox.io/n/4pksg Start</br>
 Databes is SQlLite</br>
 migrations already exists</br>
 run migrations (if forked or locally not in )</br>
+
 
 
 How to Use App:
